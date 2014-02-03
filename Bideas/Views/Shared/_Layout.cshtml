@@ -78,14 +78,18 @@
         @Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/Content/js/bootstrap.js")
         @Scripts.Render("~/Content/js/masonry.pkgd.js")
+        @Scripts.Render("~/Content/js/imagesloaded.js")
         <script type="text/javascript">
-            var $container = $('#container');
-
+            var container = document.querySelector('#container');
             $('#container').masonry({
-                itemSelector: '.item',
+                itemSelector: '.box',
                 isAnimated: true
             });
-
+            var msnry;
+            // initialize Masonry after all images have loaded
+            imagesLoaded(container, function () {
+                msnry = new Masonry(container);
+            });
         </script>
         @RenderSection("scripts", required: false)
     </body>
