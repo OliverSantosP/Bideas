@@ -43,6 +43,9 @@ body {
   margin: 0;
 }
 
+.item { width: 25%; }
+.item.w2 { width: 35%; }
+
 a {
   background: transparent;
 }
