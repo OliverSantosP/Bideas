@@ -43,7 +43,10 @@ body {
   margin: 0;
 }
 
-.item { width: 25%; }
+.item {
+  margin: 5px;
+  float: left;
+}
 .item.w2 { width: 35%; }
 
 a {
@@ -5922,7 +5925,7 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel-body {
-  padding: 15px;
+  padding: 5px;
 }
 
 .panel-body:before,

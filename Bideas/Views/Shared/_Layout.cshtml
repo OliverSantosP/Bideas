@@ -79,11 +79,12 @@
         @Scripts.Render("~/Content/js/bootstrap.js")
         @Scripts.Render("~/Content/js/masonry.pkgd.js")
         <script type="text/javascript">
-            var container = document.querySelector('#container');
-            var msnry = new Masonry(container, {
-                // options
-                columnWidth: 200,
-                itemSelector: '.item'
+            var $container = $('#container');
+
+            $container.imagesLoaded(function () {
+                $container.masonry({
+                    itemSelector: '.box'
+                });
             });
         </script>
         @RenderSection("scripts", required: false)
