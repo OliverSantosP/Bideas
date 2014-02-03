@@ -132,7 +132,7 @@ img {
 }
 
 img.resize{
-    width:250px; /* you can use % */
+    width:100%; /* you can use % */
     height: auto;
 }
 
