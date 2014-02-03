@@ -131,6 +131,11 @@ img {
   border: 0;
 }
 
+img.resize{
+    width:250px; /* you can use % */
+    height: auto;
+}
+
 svg:not(:root) {
   overflow: hidden;
 }

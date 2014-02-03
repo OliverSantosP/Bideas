@@ -81,11 +81,12 @@
         <script type="text/javascript">
             var $container = $('#container');
 
-            $container.imagesLoaded(function () {
-                $container.masonry({
-                    itemSelector: '.box'
-                });
+            $('#container').masonry({
+                itemSelector: '.item',
+                columnWidth: 100,
+                isAnimated: true
             });
+
         </script>
         @RenderSection("scripts", required: false)
     </body>
