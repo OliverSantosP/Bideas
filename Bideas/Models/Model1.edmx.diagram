@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="547d5cac74c84bb99e5ee3c395392c56" Name="Diagram1" ZoomLevel="86" >
+        <EntityTypeShape EntityType="Model1.Users" Width="1.5" PointX="3.875" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.Status" Width="1.5" PointX="5.375" PointY="5.5" />
+        <EntityTypeShape EntityType="Model1.Roles" Width="1.5" PointX="12.75" PointY="0.5" />
+        <EntityTypeShape EntityType="Model1.UsersRoles" Width="1.5" PointX="8.375" PointY="3.875" />
+        <EntityTypeShape EntityType="Model1.Permissions" Width="1.5" PointX="10.625" PointY="1" />
+        <AssociationConnector Association="Model1.RolesStatus" />
+        <AssociationConnector Association="Model1.UsersStatus" />
+        <AssociationConnector Association="Model1.UsersRolesStatus" />
+        <AssociationConnector Association="Model1.PermissionsStatus" />
+        <EntityTypeShape EntityType="Model1.RolesPermissions" Width="1.5" PointX="12.375" PointY="3.875" />
+        <AssociationConnector Association="Model1.RolesPermissionsStatus" />
+        <AssociationConnector Association="Model1.RolesPermissionsRoles" />
+        <AssociationConnector Association="Model1.RolesPermissionsPermissions" />
+        <EntityTypeShape EntityType="Model1.AdsCategories" Width="1.5" PointX="1.25" PointY="0.75" />
+        <AssociationConnector Association="Model1.AdsCategoriesStatus" />
+        <EntityTypeShape EntityType="Model1.AdsSubcategories" Width="1.5" PointX="2" PointY="4.125" />
+        <AssociationConnector Association="Model1.AdsSubcategoriesStatus" />
+        <AssociationConnector Association="Model1.AdsSubcategoriesAdsCategories" />
+        <EntityTypeShape EntityType="Model1.AdsType" Width="1.5" PointX="10.375" PointY="4.375" />
+        <AssociationConnector Association="Model1.AdsTypeStatus" />
+        <EntityTypeShape EntityType="Model1.Ads" Width="1.5" PointX="6.125" PointY="0.5" />
+        <AssociationConnector Association="Model1.AdsUsers" />
+        <AssociationConnector Association="Model1.AdsStatus" />
+        <AssociationConnector Association="Model1.AdsAdsType" />
+        <AssociationConnector Association="Model1.AdsAdsSubcategories" />
+        <EntityTypeShape EntityType="Model1.AdsImages" Width="1.5" PointX="8.125" PointY="0.5" />
+        <AssociationConnector Association="Model1.AdsImagesAds" />
+        <AssociationConnector Association="Model1.AdsImagesStatus" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
