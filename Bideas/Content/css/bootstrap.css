@@ -820,6 +820,11 @@ pre code {
   margin-left: auto;
 }
 
+.masonry {
+  margin: 0 auto;
+  
+}
+
 .container:before,
 .container:after {
   display: table;
