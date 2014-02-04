@@ -15,6 +15,7 @@ nav,
 section,
 summary {
   display: block;
+  margin:15px;
 }
 
 audio,
@@ -50,10 +51,17 @@ body {
   height:auto;
   
 }
-.box.w2 {
+.box.medium {
   margin: 5px;
   float: left;
-  width:200px;
+  width:278px;
+  height:auto;
+} 
+
+.box.big {
+  margin: 5px;
+  float: left;
+  width:413px;
   height:auto;
   
 } 
