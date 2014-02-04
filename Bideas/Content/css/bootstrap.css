@@ -46,11 +46,17 @@ body {
 .box {
   margin: 5px;
   float: left;
-  width:247px;
+  width:135px;
   height:auto;
   
 }
-.box.w2 { width: 35%; }
+.box.w2 {
+  margin: 5px;
+  float: left;
+  width:200px;
+  height:auto;
+  
+} 
 
 a {
   background: transparent;
@@ -822,9 +828,12 @@ pre code {
 
 .masonry {
   margin: 0 auto;
-  
+  padding-left:15px;
+  padding-right:15px;
 }
-
+.thumby {
+  margin: 0 auto;
+}
 .container:before,
 .container:after {
   display: table;
