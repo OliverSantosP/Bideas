@@ -58,6 +58,11 @@ body {
   height:auto;
 } 
 
+.boxpad
+{padding:5px;
+
+}
+
 .box.big {
   margin: 5px;
   float: left;
@@ -151,6 +156,8 @@ img {
 img.resize{
     width:100%; /* you can use % */
     height: auto;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
 }
 
 svg:not(:root) {
@@ -408,12 +415,6 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
-.pricetext
-{
-padding-left:5px;
-}
-
 
 h1,
 h2,
@@ -5964,7 +5965,6 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel-body {
-  padding: 5px;
 }
 
 .panel-body:before,

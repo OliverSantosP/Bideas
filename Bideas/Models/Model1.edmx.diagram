@@ -9,7 +9,7 @@
         <EntityTypeShape EntityType="Model1.Status" Width="1.5" PointX="5.375" PointY="5.5" />
         <EntityTypeShape EntityType="Model1.Roles" Width="1.5" PointX="12.75" PointY="0.5" />
         <EntityTypeShape EntityType="Model1.UsersRoles" Width="1.5" PointX="8.375" PointY="3.875" />
-        <EntityTypeShape EntityType="Model1.Permissions" Width="1.5" PointX="10.625" PointY="1" />
+        <EntityTypeShape EntityType="Model1.Permissions" Width="1.5" PointX="10.25" PointY="0.625" />
         <AssociationConnector Association="Model1.RolesStatus" />
         <AssociationConnector Association="Model1.UsersStatus" />
         <AssociationConnector Association="Model1.UsersRolesStatus" />
