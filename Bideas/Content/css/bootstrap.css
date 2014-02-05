@@ -337,8 +337,8 @@ body {
   font-family: "Cabin", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #ffffff;
-  background-color: #108a93;
+  color: #0D1D32;
+  background-color: #ffffff;
 }
 
 input,
@@ -607,7 +607,7 @@ cite {
 }
 
 .page-header {
-  border-bottom: 1px solid #0d747c;
+  color: #0D1D32;
 }
 
 ul,
@@ -5034,8 +5034,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #ad1d28;
-  border-color: #911821;
+  background-color: #FC3123;
+  border-color: #FC3123;
 }
 
 .navbar-default .navbar-brand {
@@ -5059,14 +5059,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: #d92432;
+  background-color: #E72C1F;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #d92432;
+  background-color: #E72C1F;
 }
 
 .navbar-default .navbar-nav > .disabled > a,
@@ -5956,7 +5956,6 @@ a.list-group-item.active:focus .list-group-item-text {
 .panel {
   margin-bottom: 5px;
   background-color: #F8FBD0;
-  color:#202F3F;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
