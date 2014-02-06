@@ -3064,7 +3064,7 @@ input[type="button"].btn-block {
     font-family: 'Avenir LT 85 Heavy';
     font-style: normal;
     font-weight: 400;
-    src: url('/Content/fonts/Avenir LT 85 Heavy.woff') format('woff');
+    src: url('/Content/fonts/AvenirLT85Heavy.woff') format('woff');
 }
 
 @font-face
@@ -3072,7 +3072,7 @@ input[type="button"].btn-block {
     font-family: 'Avenir LT 55 Roman';
     font-style: normal;
     font-weight: 400;
-    src: url('/Content/fonts/Avenir LT 55 Roman.woff') format('woff');
+    src: url('/Content/fonts/AvenirLT55Roman.woff') format('woff');
 }
 .glyphicon {
     position: relative;
