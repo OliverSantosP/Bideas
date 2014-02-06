@@ -46,12 +46,14 @@ body {
 
 .price {
     margin: 0;
-    color: #A6A6A6;
+    color: #404040;
     text-align: center;
     margin-top: -10px;
     padding-top: 4px;
     padding-bottom: 4px;
     font-family: 'Avenir LT 85 Heavy';
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.4em;
 }
 
     .price.highlight {
@@ -63,6 +65,7 @@ body {
         padding-top: 4px;
         padding-bottom: 4px;
         font-family: 'Avenir LT 85 Heavy';
+        -webkit-font-smoothing: antialiased;
     }
 
 .boxpad {
@@ -70,9 +73,10 @@ body {
     padding-right: 3px;
     padding-top: 3px;
     background-color: #FFFFFF;
-    color: #A6A6A6;
+    color: #404040;
     text-align: center;
     font-family: 'Avenir LT 55 Roman';
+    -webkit-font-smoothing: antialiased;
 }
 
 .box {
@@ -382,6 +386,7 @@ body {
     line-height: 1.428571429;
     color: #0D1D32;
     background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
 }
 
 input,
