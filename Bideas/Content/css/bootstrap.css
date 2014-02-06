@@ -48,32 +48,31 @@ body {
     margin: 0;
     color: #A6A6A6;
     text-align: center;
-    margin-top:-10px;
-    padding-top:4px;
-    padding-bottom:4px;
+    margin-top: -10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     font-family: 'Avenir LT 85 Heavy';
 }
 
-.price.highlight {
-    margin: 0;
-    background-color: #F15A22;
-    color: #FFFFFF;
-    text-align: center;
-    margin-top:-10px;
-    padding-top:4px;
-    padding-bottom:4px;
-    font-family: 'Avenir LT 85 Heavy';
-}
+    .price.highlight {
+        margin: 0;
+        background-color: #F15A22;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: -10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-family: 'Avenir LT 85 Heavy';
+    }
 
 .boxpad {
     padding-left: 3px;
     padding-right: 3px;
-    padding-top:3px;
+    padding-top: 3px;
     background-color: #FFFFFF;
     color: #A6A6A6;
     text-align: center;
-    font-family:'Avenir LT 55 Roman';
-
+    font-family: 'Avenir LT 55 Roman';
 }
 
 .box {
@@ -92,12 +91,12 @@ body {
 
 
 
-.box.big {
-    margin: 5px;
-    float: left;
-    width: 413px;
-    height: auto;
-}
+    .box.big {
+        margin: 5px;
+        float: left;
+        width: 413px;
+        height: auto;
+    }
 
 a {
     background: transparent;
@@ -653,7 +652,6 @@ cite {
 .page-header {
     color: #FFFFFF;
     padding-left: 10px;
-   
 }
 
 ul,
@@ -3054,14 +3052,22 @@ input[type="button"].btn-block {
     font-family: 'Glyphicons Halflings';
     src: url('../fonts/glyphicons-halflings-regular.eot');
     src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
-
-    font-family: 'Avenir LT 85 Heavy';
-    src: url('/Content/fonts/Avenir LT 85 Heavy.ttf');
-
-    font-family: 'Avenir LT 55 Roman';
-    src: url('/Content/fonts/Avenir LT 55 Roman.ttf');
 }
 
+@font-face{
+    font-family: 'Avenir LT 85 Heavy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/Content/fonts/Avenir LT 85 Heavy.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'Avenir LT 55 Roman';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/Content/fonts/Avenir LT 55 Roman.woff') format('woff');
+}
 .glyphicon {
     position: relative;
     top: 1px;
